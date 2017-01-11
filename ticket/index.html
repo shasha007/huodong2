@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>    <title>ticket</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>记录</title>
+    <style>
+      html{
+        height: 100%;
+      }
+      body{
+        padding: 0 3%;
+      }
+    </style>
+  </head>
+  <body >
+  <header class="ticket_header">
+    <img src="images/header.png">
+  </header>
+  <div class="num_h2">
+    <h2>当前人数:</h2>
+    <div class="num">
+      <div class="num_show">
+        <p></p>
+        <p class="number0">?</p>
+        <p></p>
+      </div>
+
+      <div class="num_show">
+        <p></p>
+        <p class="number1">?</p>
+        <p></p>
+      </div>
+      <div class="num_show">
+        <p></p>
+        <p class="number2">?</p>
+        <p></p>
+      </div>
+      <div class="num_show">
+        <p></p>
+        <p class="number3">?</p>
+        <p></p>
+      </div>
+      <div class="num_show">
+        <p></p>
+        <p class="number4">?</p>
+        <p></p>
+      </div>
+    </div>
+    <img class="refresh" src="images/f5.png">
+  </div>
+  <div class="modal fade" id="alert_rule" >
+    <div class="modal-dialog modal-dialog1">
+      <div class="modal-content modal-content1">
+          <div class="rule">
+            <p >活动规则</p>
+            <p>1、用户需先支付9.9元获得参与资格（活动结束三个工作日内返还到PU币）</p>
+            <p>2、用户序号个位数为9的（9、19、29...）获得免费电影票一张(不限场次)。</p>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="num_footer">
+    <p class="people"><input placeholder="推荐人ID"></p>
+    <img class="ticket_btn" src="images/button.png">
+    <a class="ticket_record"> 活动规则</a>
+    <p class="ticket_record">领票记录</p>
+  </footer>
+  </body>
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/getnum.js"></script>
+<script>
+  $('#alert_rule').modal('show');
+</script>
+</html>

@@ -1,0 +1,69 @@
+@font-face {
+	font-family: 'iconfont';
+	src: url('//at.alicdn.com/t/font_1472521335_594709.eot');
+	src: url('//at.alicdn.com/t/font_1472521335_594709.eot?#iefix') format('embedded-opentype'),
+	url('//at.alicdn.com/t/font_1472521335_594709.woff') format('woff'),
+	url('//at.alicdn.com/t/font_1472521335_594709.ttf') format('truetype'),
+	url('//at.alicdn.com/t/font_1472521335_594709.svg#iconfont') format('svg');
+}
+* { -webkit-tap-highlight-color:rgba(0,0,0,0);}
+body { font:14px/24px Arial, 'microsoft yahei'; color:#333; margin:0; padding:0; -webkit-user-select: none; -webkit-font-smoothing: antialiased; background-color: #f1f1f1;}
+h1,h2,h3,h4,h5,h6 { font-size: 14px; font-weight: normal; margin: 0; padding: 0;}
+div,dl,dt,dd,input,button,label,ul,ol,li,p,select,span,textarea,thead,tfoot,table,tr,td,figure,figcaption,time,small { font-size: 14px; font-weight: normal; margin: 0; padding: 0;}
+input,button { font-size: 14px;}
+div { display: block;}
+table { border-collapse: collapse;}
+li,ol,ul { list-style-type: none;}
+img { border: 0 none; vertical-align: top;}
+em,cite,i { font-style: normal;}
+button,input,textarea,select { -webkit-appearance: none; font-family: 'microsoft yahei'; font-size: 14px; border: none; outline-style: none; line-height: 1.3333; vertical-align: middle; background-color: transparent;}
+blockquote,q { quotes: none;}
+blockquote:after,blockquote:before,q:after,q:before { content: ''; content: none;}
+:focus { outline: 0;}
+*:before, *:after { -webkit-box-sizing: border-box; -ms-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+.inputbox::-webkit-input-placeholder,.textarea::-webkit-input-placeholder { color: #e5e5e5;}
+.clear { clear: both; overflow: hidden; height: 0; line-height: 0; display: block;}
+.clearfix:after { clear: both; overflow: hidden; height: 0; line-height: 0; display: block; visibility: hidden; content: '';}
+::-webkit-scrollbar { width: 0;}
+a:link,a:visited { text-decoration: none;}
+a:hover {}
+
+.iconfont { font-family:"iconfont" !important; font-size:16px; font-style:normal; -webkit-font-smoothing: antialiased; -webkit-text-stroke-width: 0.2px;}
+
+.h50,.h54,.h15,.h44 { height: 50px; display: block; clear: both; overflow: hidden;}
+.h44 { height: 44px;}
+.h56 { height: 56px;}
+.h15 { height: 12px; background-color: #F2F2F2; border-top: solid 1px #e5e5e5; border-bottom: solid 1px #e5e5e5;}
+.header { height: 44px; line-height: 44px; text-align: center; position: fixed; left: 0; top: 0; right: 0; background-color: #202b39; color: #fff; z-index: 100;}
+.header h1 { font-size: 16px;}
+.header .back { position: absolute; left: 0; top: 0; bottom: 0; width: 40px; background: url(../img/arrow.png) no-repeat center; background-size: auto 20px;}
+.header .icon { position: absolute; top: 0; right: 0; bottom: 0; width: 40px;}
+.header .add:before { content: '+'; background-color: #fff; width: 24px; height: 24px; border-radius: 50%; display: block; color: #202b39; font-size: 24px; line-height: 24px; text-align: center; margin-top: 10px; -webkit-transition: 300ms; box-shadow: 0 0 2px rgba(0,0,0,0.1);}
+.header .add.current:before { -webkit-transform: rotate(135deg);}
+
+
+.footer { height: 44px; background-color: #fff; border-top: solid 1px #eee; position: fixed; left: 0; right: 0; bottom: 0; z-index: 100;}
+.footer span { width: -webkit-calc(100% / 4 - 1px); height: 44px; font-size: 12px; border-right: solid 1px #eee; float: left; line-height: 22px; text-align: center; display: -webkit-box; -webkit-box-align: center; -webkit-box-pack: center; -webkit-box-orient: vertical;}
+.footer span:last-child { width: -webkit-calc(100% / 4); border-right-width: 0;}
+.footer .current { color: #EC5F2B;}
+.footer .iconfont { display: block; height: 18px;}
+
+.addmodal { overflow: hidden; padding: 12px;}
+.addmodal span { font-size: 16px; min-height: 60px; display: -webkit-box; -webkit-box-align: center; -webkit-box-pack: center; text-align: center; -webkit-box-orient: vertical; background-color: #fff; margin-bottom: 12px; border-radius: 5px; box-shadow: 0 1px 1px rgba(0,0,0,0.1);}
+.addmodal span i { padding: 4px 15px; display: block; line-height: 20px; font-size: 12px; color: #999; text-align: left;}
+.addmodal .a { color: #f65177;}
+.addmodal .b { color: #2abfc9;}
+.addmodal .c { color: #EC5F2B; padding: 12px 0 10px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
